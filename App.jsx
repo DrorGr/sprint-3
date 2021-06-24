@@ -22,7 +22,7 @@ export function App() {
                 </Switch>
             </main>
             <footer className="app-footer">
-                &copy; Yuval David &amp; Noga Jacobi 
+                &copy;  
             </footer>
         </Router>
     )
