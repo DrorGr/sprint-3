@@ -1,0 +1,31 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+body {
+	background-color: #f1f0e8;
+	font-family: sans-pro, sans-serif;
+	color: rgb(75, 75, 75);
+}
+
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header,
+footer {
+	background-color: rgb(24 119 126 / 79%);
+}
+
+footer {
+	text-align: center;
+	margin-top: auto;
+	padding: 2em 0em;
+}

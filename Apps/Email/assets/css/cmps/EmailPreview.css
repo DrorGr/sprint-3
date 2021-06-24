@@ -1,0 +1,24 @@
+.email-preview {
+    padding: 10px 5px;
+    padding-left: 30px;
+}
+
+a:hover {
+    font-weight: normal;
+}
+
+.email-preview.bold {
+    font-weight: bold;
+}
+
+.fa-star::after {
+    content: "\f005"
+}
+
+.fa-trash::after {
+    content: "\f2ed";
+}
+
+.fa-star.yellow {
+    color: #fcca3d;
+}

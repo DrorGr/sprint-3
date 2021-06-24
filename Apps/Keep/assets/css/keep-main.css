@@ -1,0 +1,10 @@
+@import './pages/KeepApp.css';
+
+@import './cmps/NotesAdd.css';
+@import './cmps/NotesList.css';
+@import './cmps/NotesPreviews.css';
+@import './cmps/NoteActions.css';
+@import './cmps/NotesAddSelect.css';
+@import './cmps/NoteBcgClr.css';
+@import './cmps/NoteEditContent.css';
+@import './cmps/NoteFilter.css'

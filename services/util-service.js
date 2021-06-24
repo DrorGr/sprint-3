@@ -1,8 +1,26 @@
 export const utilService = {
     makeId,
     makeLorem,
-    getRandomIntInclusive
+    getRandomIntInclusive,
+    debounce
 }
+
+function debounce(func, wait) {
+    console.log ('Debounce on')
+    console.log ('func =',func)
+    console.log ('wait =',wait)
+    let timeout;
+  
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout);
+        func(...args);
+      };
+  
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+    };
+  };
 
 function makeId(length = 6) {
     var txt = '';
