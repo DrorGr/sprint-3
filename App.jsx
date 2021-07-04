@@ -25,6 +25,6 @@ export function App() {
                 &copy;  
             </footer>
         </Router>
-    )
+    )   
 }
 
